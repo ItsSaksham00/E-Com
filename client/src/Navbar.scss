@@ -1,0 +1,151 @@
+.logo {
+  width: 1.5em;
+  cursor: pointer;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans";
+}
+
+nav {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8em;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+  }
+  li {
+    list-style: none;
+
+    a {
+      color: #1e242c;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+  }
+  .dropbtn {
+    color: #1e242c;
+    padding: 16px;
+    font-size: 1rem;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: "Plus Jakarta Sans";
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    font-weight: 400;
+    font-family: "Plus Jakarta Sans";
+    color: #1e242c;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #fff;
+  }
+}
+
+.searchbox {
+  padding: 1em;
+  border: none;
+  outline: none;
+  background-color: #f9fafb;
+  border-radius: 0.4em;
+  font-family: "Plus Jakarta Sans";
+  width: 16em;
+  font-size: 0.9em;
+  &:focus {
+    background-color: #fdfdfd;
+  }
+}
+
+::placeholder {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  color: #9fa9b6;
+}
+
+.searchbar-nav {
+  background-color: #f9fafb;
+  border-radius: 0.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ebeef2;
+}
+
+.searchbar-nav:focus-within {
+  background-color: #fdfdfd;
+}
+
+.searchicon {
+  margin-left: 0.8em;
+}
+.icons_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  a {
+    text-decoration: none;
+    color: #1e242c;
+  }
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5em;
+  margin-right: 6.8em;
+}
+
+.logo_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  font-family: Poppins;
+  font-size: large;
+  font-weight: 500;
+  margin-left: 6.8em;
+  cursor: pointer;
+}
